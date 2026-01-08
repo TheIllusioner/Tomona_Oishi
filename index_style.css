@@ -1,27 +1,53 @@
 body{
-    background-color: blue;
+    background-color: rgb(19, 19, 99);
     color: white;
-    font-family: 'Lucida Console', monospace;
+    font-family: 'Monaco', monospace;
     margin: 0px;
 }
 
 .background{
+    display: flex;
+    height: fit-content;
+    z-index: -1;
     border: solid black 3px;
 }
 
 .foreground{
     display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    height: fit-content;
+    flex-wrap: wrap;
     border: solid white 3px;
 }
 
 #title{
     border: solid green 3px;
+    font-size: 4vw;
+    margin-left: 3vw;
+    height: 15vw;
+}
+
+h1{
+    line-height: 0.5em;
 }
 
 #menu{
+    font-size: 3vw;
+    width: 15vw;
+    height: 20vw;
+    margin-right: 5vw;
     border: solid red 3px;
 }
 
+#menu a{
+    line-height: 1.5em;
+}
+
 #content{
+    width: 85vw;
+    margin-left: 3vw;
+    margin-top: -7vw;
+    height: 30vw;
     border: solid yellow 3px;
 }
