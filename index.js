@@ -1,7 +1,7 @@
 function navigateTo(target){
-    const contactBox = document.getElementById("Contact");
-    const aboutBox = document.getElementById("About");
-    const projectsBox = document.getElementById("Projects");
+    const contactBox = document.getElementById("contact");
+    const aboutBox = document.getElementById("about");
+    const projectsBox = document.getElementById("projects");
     const title = document.getElementById("title").firstElementChild;
 
     if (target === "Contact"){

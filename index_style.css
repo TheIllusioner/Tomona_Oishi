@@ -94,16 +94,16 @@ a:hover{
     color: white;
 }
 
-#Contact{
+#contact{
     display: none;
 }
 
-#About{
+#about{
     display: flex;
     justify-content: space-between;
 }
 
-#About img{
+#about img{
     z-index: 3;
     height: 20vw;
     border: solid white 1px;
@@ -116,7 +116,7 @@ a:hover{
     font-size: 1vw;
 }
 
-#Projects{
+#projects{
     display: none;
 }
 
