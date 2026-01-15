@@ -27,27 +27,51 @@ body{
     /* border: solid white 3px; */
 }
 
+a:hover{
+    cursor: pointer;
+}
+
+.heading{
+    height: fit-content;
+}
+
 #title{
     border: solid rgb(11, 152, 124) 3px;
-    font-size: 4vw;
+    font-size: 6vw;
     margin-left: 3vw;
     margin-top: 1vw;
-    height: 15vw;
+    height: 12vw;
+    width: max-content;
+    padding-left: 2vw;
+    padding-right: 4vw;
+}
+
+#desc{
+    border: solid rgb(11, 152, 124) 1px;
+    font-size: 1vw;
+    height: 2vw;
+    color: black;
+    line-height: 0;
+    padding-left: 1vw;
+    padding-right: 8vw;
+    margin-top: -3vw;
+    margin-left: 33vw;
+    background-color:rgb(137, 202, 202);
 }
 
 #title p{
-    font-size: 2em;
+    /* font-size: 1.5em; */
     line-height: 0;
 }
 
 #menu{
-    font-size: 3vw;
+    font-size: 2.5vw;
     width: 15vw;
-    height: 20vw;
+    height: 15vw;
     margin-right: 5vw;
     margin-top: 2vw;
     padding-left: 0.5vw;
-    border: solid rgb(11, 152, 124) 3px;
+    border: solid rgb(11, 152, 124) 2px;
 }
 
 #menu a{
@@ -56,9 +80,43 @@ body{
 
 #content{
     width: 85vw;
-    margin-left: 3vw;
-    margin-top: -7vw;
     height: 30vw;
+    box-sizing: border-box;
+    margin-left: 4vw;
+    margin-top: -3vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
     border: solid white 1px;
     background-color: #89ffd850;
 }
+
+#content a{
+    color: white;
+}
+
+#Contact{
+    display: none;
+}
+
+#About{
+    display: flex;
+    justify-content: space-between;
+}
+
+#About img{
+    z-index: 3;
+    height: 20vw;
+    border: solid white 1px;
+    position: relative;
+}
+
+.right{
+    padding-left: 3vw;
+    padding-right: 2vw;
+    font-size: 1vw;
+}
+
+#Projects{
+    display: none;
+}
+

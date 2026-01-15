@@ -11,21 +11,63 @@
         <img src="assets/SVG/background.svg">
 
         <div class="foreground">
-            <div id="title">
-                <p>HELLO WORLD!</p>
+            <div class="heading">
+                <div id="title">
+                    <p>TOMONA OISHI</p>
+                </div>
+                <div id="desc">
+                    <p>Student, Programmer, Animator, Game developer, Artist</p>
+                </div>
             </div>
 
             <div id="menu">
-                <a src="">Contact</a>
-                <a src="">About</a>
-                <a src="">Projects</a>
+                <a onclick="navigateTo('Contact')">Contact</a>
+                <a onclick="navigateTo('About')">About</a>
+                <a onclick="navigateTo('Projects')">Projects</a>
             </div>
 
-            <div id="content">
+            <div id="content" class="contents">
+                <div id="Contact">
+                    <ul>
+                        <p>Email: tomo20mag@gmail.com</p>
+                        <a target="_blank" href="https://www.linkedin.com/in/tomona-oishi">LinkedIn</a>
+                        <br><br>
+                        <a target="_blank" href="https://github.com/TheIllusioner">Github</a>
+                        <br><br>
+                        <a target="_blank" href="https://theillusioner.itch.io/">Itch</a>
+                    </ul>
+                </div>
 
+                <div id="About">
+                    <img src="assets/Profile_Picture.JPEG">
+                    <div class="right">
+                        <p> 
+                            I am an undergraduate freshman student at the University of Maryland, College Park! 
+                            I am currently studying for a dual degree in computer science and physics, 
+                            and I am in the honors college in the GEMSTONE Honors program!
+                        </p>
+                        <p>
+                            As an undergrad I'm hoping to get research experience, and the fields I am looking into as of
+                            now is human computer interaction, quantum computing, and/or sustanibility in tech. I'm also
+                            interested in game dev! I made some games in high school, but I've been working on trying
+                            to improve my technical programming skills for any future games I make as of late. Much of my
+                            game dev experience has been focused on learning tools such as Photoshop, Blender, and Unity to
+                            create assets and animations for my games.
+                        </p>
+                        <p>
+                            A longtime hobby and interest of mine is in animation, my focus being on digital 2d animation.
+                            I like learning about different animation techniques for 2d and 3d animation, the animation pipeline for
+                            animated films, shows, games, etc., and I love to analyze and learn about different animation styles as well!
+                        </p>
+                    </div>
+                </div>
+
+                <div id="Projects">
+
+                </div>
             </div>
         </div>
     </div>
-    
 </body>
+<script src="index.js"></script>
 </html>
